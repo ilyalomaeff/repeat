@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>География 10 класс зачет</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <span>
+                ГЕОГРАФИЯ | ЗАЧЕТ ПО ОПРЕДЕЛЕНИЯМ
+            </span>
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="container">
+            <div class="question-wrap">
+                <span>Что такое </span>
+                <input class="question" id="question-input" readonly type="text">
+            </div>
+            <button id="showAnswer" type="button" onclick="toggleClass()">
+                Показать ответ
+            </button>
+            <div id="answerBlock">
+                <p id="answerInput" readonly type="text"></p>
+                <button id="nextQuestion" type="button" onclick="">
+                    К СЛЕДУЮЩЕМУ ОПРЕДЕЛЕНИЮ
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -73,6 +73,6 @@ function toggleClass() {
 }
 
 generate(questions);
-nextQuestion.onclick = function() {
+nextQuestion.addEventListener("click", () => {
     generate(questions);
-};
+});
